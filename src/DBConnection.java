@@ -12,8 +12,8 @@ public class DBConnection {
 
             Connection con = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/Banking_system",
-                    "your_postgres_username",   // your database username
-                    "your_postgres_password"    // your database password
+                    "your_postgres_username",   // replace with your PostgreSQL username
+                    "your_postgres_password"    // replace with your PostgreSQL password
             );
 
             System.out.println("Database Connected Successfully");
