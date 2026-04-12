@@ -100,8 +100,8 @@ create database Banking_system;
 Update credentials in `DBConnection.java`:
 
 ```java
-"your_username_here",   // PostgreSQL username (e.g., postgres)
-"your_password_here"    // PostgreSQL password
+"your_postgres_username",   // PostgreSQL username (e.g., postgres)
+"your_postgres_password"    // PostgreSQL password
 ```
 
 ---
